@@ -1,34 +1,77 @@
 # Calendar Application for Communication Tracking
 
-## Overview
-The Calendar Application is a React-based tool designed to help companies efficiently track and manage their communications with other organizations. It provides an intuitive interface for logging past interactions, planning future communications, and ensuring follow-ups are timely and consistent.
+This is a React-based Calendar Application designed to help manage and track communication with companies, ensuring timely follow-ups and engagement. The application allows administrators to configure companies and communication schedules, while users can view, log, and track communications.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/Nithin039-reddy/communication-calendar.git
+
+
+2. Navigate into the project directory:
+
+cd communication-calendar
+
+3. Install the required dependencies:
+
+npm install
+
+4. Start the application:
+
+npm start
+
+
+The app will be running on [http://localhost:3000](http://localhost:3000).
 
 ## Features
-### Admin Module
-- Add, edit, and delete company details.
-- Manage communication methods, including predefined sequences and mandatory flags.
-- Set default communication periodicity for companies.
 
-### User Module
-- **Dashboard**:
-  - View a list of companies with their recent and upcoming communications.
-  - Color-coded highlights for overdue and due communications.
-- **Calendar View**:
-  - Log new communications directly on a calendar.
-  - View past and upcoming interactions with companies.
-- **Notifications**:
-  - Displays overdue and today’s communications in dedicated sections.
+- **Admin Module**: Manage companies and communication methods.
+- **User Module**: Track and log communications with companies.
+- **Dashboard**: View company communication history and upcoming communications.
+- **Notifications**: Get notified about overdue or upcoming communications.
+- **Calendar View**: Visualize past and upcoming communications.
+- **Reporting and Analytics** (Optional): View communication frequency and effectiveness reports.
 
-### Reporting and Analytics Module (Optional)
-- Generate insights into communication frequency and engagement effectiveness.
-- Download reports in PDF or CSV format.
+## Technologies Used
 
-## Installation and Setup
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or above)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- React
+- Node.js
+- [React Router](https://reactrouter.com/)
+- [Axios](https://axios-http.com/)
+- [Netlify](https://www.netlify.com/) for deployment
 
-### Steps to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/calendar-application.git
+## Deployed URL
+
+You can view the live application here: [https://glittery-palmier-884f90.netlify.app/](https://glittery-palmier-884f90.netlify.app/)
+
+## GitHub Repository
+
+The source code for this project is available on GitHub: [https://github.com/Nithin039-reddy/communication-calendar.git](https://github.com/Nithin039-reddy/communication-calendar.git)
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+### `npm run eject`
+
+Removes the single build dependency from your project.
+
+## Known Issues or Limitations
+
+- [List any issues, bugs, or things that could be improved.]
