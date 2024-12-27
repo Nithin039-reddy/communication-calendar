@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-
 function Dashboard() {
+  // eslint-disable-next-line no-unused-vars
   const [companies, setCompanies] = useState([
     { id: 1, name: "Company A", lastCommunications: [{ type: "Email", date: "2024-01-01" }], nextCommunication: "2024-01-10" },
     { id: 2, name: "Company B", lastCommunications: [{ type: "Phone Call", date: "2024-01-05" }], nextCommunication: "2024-01-08" },
